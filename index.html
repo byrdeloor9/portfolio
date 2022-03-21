@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Byron</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="theme-btn flex-center">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+
+        <header>
+            <div class="nav-bar">
+                <a href="#" class="logo">BYRON</a>
+                <div class="nav-box">
+                    <div class="nav-items">
+                        <button class="nav-close-btn"><i class="fa-solid fa-xmark"></i></button>
+                        <a href="#home">Inicio</a>
+
+                        <a href="#skills">Skills</a>
+                        <a href="#portfolio">Portafolio</a>
+                        <a href="#contact">Contactar</a>
+                    </div>
+                </div>
+                <button class="toggle"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+
+        <section class="home flex-center" id="home">
+            <div class="home-container">
+                <div class="link-icons">
+                    <a href="https://bit.ly/3uNNKbT" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ByronDeLoor2" target="_blank"><i
+                            class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/byrdeloor9" target="_blank"><i
+                            class="fa-brands fa-github-square"></i></a>
+                </div>
+                <div class="info">
+                    <h1 class="header-title">Hola, soy Byron De Loor</h1>
+                    <p class="text">Hola soy Byron, soy desarrollador web entusiasta, me interesa desarrollarme en el
+                        campo de desarrollo web, y me gusta la comida y la buena musica.
+                    </p>
+                    <a href="./docs/CV_Byron De Loor.pdf " download="CV_Byron_De_Loor.pdf" class="btn">Descargar CV <i
+                            class="fa-solid fa-circle-arrow-down"></i></a>
+
+                </div>
+                <div class="home-img">
+                    <img src="./images/avatar-w.svg" class="img-elementw z-index" alt="">
+                    <img src="./images/avatar-b.svg" class="img-elementb z-index" alt="">
+                </div>
+            </div>
+            <a href="#skills" class="scroll-down">Desliza hacia abajo <i class="fas fa-arrow-down"></i></a>
+        </section>
+
+        <section class="skills-edu section" id="skills">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Educacion y Skills</h1>
+                <h1 class="section-title-02">Educacion y Skills</h1>
+                <div class="content">
+                    <div class="skills-description">
+                        <p>Soy estudiante de 8vo Semestre de la carrera Ing. Mecatronica en la universidad Escuela
+                            Superior Politecnica del Litoral.</p>
+                    </div>
+                    <div class="skills-info education-all">
+                        <div class="education">
+                            <h4><label>Educacion</label></h4>
+                            <ul class="edu-list">
+                                <li class="item">
+                                    <span class="year">2017-Actualidad</span>
+                                    <p><span>Ing. Mecatronica </span> - ESPOL, Guayaqui, EC</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2017</span>
+                                    <p><span>Colegio </span> - Babahoyo, Los Rios, EC</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <h4><label>Skills</label></h4>
+                            <ul class="skills">
+                                <li class="skill">
+                                    <span>HTML</span>
+                                    <i class="icon fa-brands fa-html5"></i>
+                                </li>
+                                <li class="skill">
+                                    <span>CSS</span>
+                                    <i class="icon fa-brands fa-css3-alt"></i>
+                                </li>
+                                <li class="skill">
+                                    <span>JavaScript</span>
+                                    <i class="icon fa-brands fa-js"></i>
+                                </li>
+                                <li class="skill">
+                                    <span>Django</span>
+                                    <i class="icon fa-brands fa-python"></i>
+                                </li>
+                                <li class="skill">
+                                    <span>Python</span>
+                                    <i class="icon fa-brands fa-python"></i>
+                                </li>
+
+                                <li class="skill">
+                                    <span>PostgreSQL</span>
+                                    <i class="icon fa-solid fa-database"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Portafolio</h1>
+                <h1 class="section-title-02">Portafolio</h1>
+            </div>
+            <div class="content">
+                <div class="portfolio-list">
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info" id="0">
+                                <h3>Portafolio</h3>
+
+                                <p id="herramientas0">html,css,javascript</p>
+                            </div>
+                            <img src="./images/portfolio.png" alt="">
+                        </div>
+                        <div class="portfolio-modal flex-center">
+                            <div class="portfolio-modal-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Portafolio</h3>
+                                <img src="./images/portfolio.png" alt="">
+                                <p>Esta aplicacion es mi portafolio personal, donde muestro las habilidades que tengo,
+                                    los softwares que manejo, y los proyectos que he realizado.
+                                    <br>Esta aplicacion fue desarrollada usando <b>HTML, CSS y JavaScript</b>
+                                </p>
+                                <span>Link: </span><a id="github" href="https://github.com/byrdeloor9/WeatherApp">Github
+                                    <i class="fa-brands fa-github-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info" id="1">
+                                <h3>Aplicacion del Clima</h3>
+
+                                <p id="herramientas1">html,css, javaScript</p>
+                            </div>
+                            <img src="./images/WeatherApp.png" alt="">
+                        </div>
+                        <div class="portfolio-modal flex-center">
+                            <div class="portfolio-modal-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Aplicacion del Clima</h3>
+                                <img src="./images/WeatherApp.png" alt="">
+                                <p>Aplicacion del clima, que muestra la informacion del clima en ese momento en la
+                                    ciudad ingresada. Aplicacion desarrollada en python, usando Flask y desplegada en <a
+                                        href="https://blooming-brook-98311.herokuapp.com/" target="_blank">
+                                        Heroku
+                                    </a></p>
+                                <span>Link: </span><a id="github" href="https://github.com/byrdeloor9/WeatherApp">Github
+                                    <i class="fa-brands fa-github-square"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info" id="2">
+                                <h3>Aplicacion de adopcion</h3>
+
+                                <p id="herramientas2">html,css</p>
+                            </div>
+                            <img src="./images/AppAdopcion.jpg" alt="">
+                        </div>
+                        <div class="portfolio-modal flex-center">
+                            <div class="portfolio-modal-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Aplicacion del Clima</h3>
+                                <img src="./images/AppAdopcion.jpg" alt="">
+                                <p>Aplicacion de adopcion, que muestra la informacion animales, con sus descripciones.
+                                    Desarrollada usando <b>HTML y CSS</b> </p>
+                                <span>Link: </span><a id="github"
+                                    href="https://github.com/byrdeloor9/adopcion_app">Github <i
+                                        class="fa-brands fa-github-square"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact section" id="contact">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Contactar</h1>
+                <h1 class="section-title-02">Contactar</h1>
+                <div class="content">
+                    <div class="contact-form">
+                        <form name="formulario-contacto" class="formulario" action="https://formspree.io/f/mqknqern"
+                            method="POST">
+                            <div class="form-name">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="form-email">
+                                <input type="email" name="email" id="email" placeholder="Correo Electronico">
+                            </div>
+                            <div class="form-mensaje">
+                                <textarea name="message" id="mensaje" placeholder="Mensaje" rows="7"></textarea>
+                            </div>
+                            <button class="btn" type="submit">Enviar Correo <i
+                                    class="fa-solid fa-envelope"></i></button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="about group">
+                    <h2>Byron</h2>
+                    <p>Desarrolador Web Jr.</p>
+                    <a href="#about">Acerca de mi</a>
+                </div>
+                <hr>
+                <div class="info group">
+                    <h3> </h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#contact">Contactar</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="follow group">
+                    <h3>Redes Sociales</h3>
+                    <ul>
+                        <li><a href="https://bit.ly/3uNNKbT" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/ByronDeLoor2" target="_blank"><i
+                                    class="fa-brands fa-twitter-square"></i></a></li>
+                        <li><a href="https://github.com/byrdeloor9" target="_blank"><i
+                                    class="fa-brands fa-github-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright group">
+                <p>© 2022 por Byron De Loor. Todos los derechos reservados</p>
+            </div>
+
+        </footer>
+
+        <div class="scrollTop-btn flex-center">
+            <i class="fa-solid fa-circle-chevron-up"></i>
+        </div>
+
+    </main>
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
